@@ -18,6 +18,15 @@ Given raw notes about a project or job ("I built an AI agent with LangChain and 
 
 See [`SKILL.md`](./SKILL.md) for the full rule set (27 sections covering writing formulas, templates, verb selection, quantification, and truthfulness rules).
 
+## Examples & templates
+
+- [`templates/project-extraction-template.md`](./templates/project-extraction-template.md) — fillable version of the § 22 extraction workflow, used before writing any bullets.
+- [`examples/frontend-example.md`](./examples/frontend-example.md) — raw notes → resume bullets for a React dashboard, including a race-condition fix.
+- [`examples/backend-example.md`](./examples/backend-example.md) — raw notes → resume bullets for a service-aggregation API with caching and retries.
+- [`examples/ai-agent-example.md`](./examples/ai-agent-example.md) — raw notes → resume bullets for a coordinator-worker incident investigation agent.
+
+Each example walks through the full pipeline: raw input → silent extraction → follow-up questions → three-layer bullets → § 26 quality score.
+
 ## Installation
 
 ### Claude Code (personal skill)
@@ -58,10 +67,21 @@ or simply ask naturally — the skill's `description` frontmatter triggers it au
 
 ```
 resume-engineering-skill/
-├── SKILL.md   # the skill itself (frontmatter + full rule set)
-└── README.md  # this file
+│
+├── README.md
+├── SKILL.md
+│
+├── examples/
+│   ├── frontend-example.md
+│   ├── backend-example.md
+│   └── ai-agent-example.md
+│
+├── templates/
+│   └── project-extraction-template.md
+│
+└── LICENSE
 ```
 
 ## License
 
-MIT — see [SKILL.md](./SKILL.md) frontmatter for the declared license; add a `LICENSE` file if you plan to publish this publicly.
+MIT — see [LICENSE](./LICENSE).

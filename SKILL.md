@@ -21,6 +21,13 @@ Transform raw project experience, internship experience, open-source work, and t
 
 The resume must make the candidate look like someone who **designed and owned systems**, not merely someone who completed coding tasks.
 
+## Supporting files
+
+- `templates/project-extraction-template.md` — the fill-in version of the § 22 extraction workflow; use it before writing any bullets.
+- `examples/frontend-example.md`, `examples/backend-example.md`, `examples/ai-agent-example.md` — full worked examples (raw notes → extraction → follow-up questions → three-layer bullets → § 26 quality score) for the three most common project types.
+
+When working a real request, load the extraction template first, and load the example matching the project's domain as a style reference if the rewrite isn't landing.
+
 ---
 
 # 1. Core Principle
@@ -702,9 +709,11 @@ Business impact:
 Technologies:
 ```
 
+Use `templates/project-extraction-template.md` for the fillable version of this template plus a field-by-field guide.
+
 Do not immediately write resume bullets.
 
-First reconstruct the engineering story.
+First reconstruct the engineering story. See `examples/` for three fully worked examples of this workflow end to end.
 
 ---
 
